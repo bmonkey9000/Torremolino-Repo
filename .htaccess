@@ -1,0 +1,4 @@
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /torremolino/
+RewriteRule ^DEV([a-zA-Z0-9-]*/?[a-zA-Z0-9-]*)/?$ rooter.php?page=$1 [NC,L]
