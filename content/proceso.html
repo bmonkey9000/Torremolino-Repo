@@ -1,0 +1,178 @@
+<section id="content" style="background-color: #f5f7f8">
+    <section id="process-info">
+        <div>
+            <p>{CONTENT.PROCESS.INFO1}</p>
+        </div>
+        <div>
+            <h2>{CONTENT.PROCESS.INFO2TITLE}</h2>
+            <p>{CONTENT.PROCESS.INFO2CONTENT}</p>
+            <h3>{CONTENT.PROCESS.INFO2CONTENTH3}</h3>
+        </div>
+    </section>
+
+    <section id="process-infography">
+        <div class="info-start"><div class="btn-inicio" onclick="infoStart()"></div></div>
+
+        <div class="info-show">
+            <div class="info-path">
+                <div class="camino"></div>
+                <div class="letras">
+                    <a class="a" onclick="$('.cycle-slideshow').cycle('goto', 0);"></a>
+                    <a class="b" onclick="$('.cycle-slideshow').cycle('goto', 1);"></a>
+                    <a class="c" onclick="$('.cycle-slideshow').cycle('goto', 2);"></a>
+                    <a class="d" onclick="$('.cycle-slideshow').cycle('goto', 3);"></a>
+                    <a class="e" onclick="$('.cycle-slideshow').cycle('goto', 4);"></a>
+                    <a class="f" onclick="$('.cycle-slideshow').cycle('goto', 5);"></a>
+                    <a class="g" onclick="$('.cycle-slideshow').cycle('goto', 6);"></a>
+                    <a class="h" onclick="$('.cycle-slideshow').cycle('goto', 7);"></a>
+                    <a class="i" onclick="$('.cycle-slideshow').cycle('goto', 8);"></a>
+                    <a class="j" onclick="$('.cycle-slideshow').cycle('goto', 9);"></a>
+                    <a class="k" onclick="$('.cycle-slideshow').cycle('goto', 10);"></a>
+                    <a class="l" onclick="$('.cycle-slideshow').cycle('goto', 11);"></a>
+                    <a class="m" onclick="$('.cycle-slideshow').cycle('goto', 12);"></a>
+                    <a class="n" onclick="$('.cycle-slideshow').cycle('goto', 13);"></a>
+                </div>
+            </div>
+            <div class="info-slides">
+                <a class="left" onclick="$('.cycle-slideshow').cycle('prev'); "></a>
+                <a class="right" onclick="$('.cycle-slideshow').cycle('next'); obe();"></a>
+                <div id="infoSlides" class="cycle-slideshow"
+                     data-cycle-fx="scrollHorz"
+                     data-cycle-timeout="0"
+                     data-cycle-slides="> div"
+                     data-cycle-speed="500">
+                    <div class="a1"></div>
+                    <div class="a2"></div>
+                    <div class="a3"></div>
+                    <div class="a4"></div>
+                    <div class="a5"></div>
+                    <div class="a6"></div>
+                    <div class="a7"></div>
+                    <div class="a8"></div>
+                    <div class="a9"></div>
+                    <div class="a10"></div>
+                    <div class="a11"></div>
+                    <div class="a12"></div>
+                    <div class="a13"></div>
+                    <div class="a14"></div>
+                    <div class="a15"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process-states">
+        <div class="column5">
+            <h4>ETAPA 1</h4>
+            <h2>CONOCIMIENTO</h2>
+            <p>A. Búsqueda del departamento</p>
+            <p>B. Verificación de Inmobiliarias</p>
+        </div>
+        <div class="column5">
+            <h4>ETAPA 2</h4>
+            <h2>CONSIDERACIÓN</h2>
+            <p>C. Primera Decisión</p>
+            <p>D. Cita en la inmobiliaria</p>
+            <p>E. Segunda Decisión</p>
+            <p>F. Visita del terreno</p>
+        </div>
+        <div class="column5">
+            <h4>ETAPA 3</h4>
+            <h2>COMPRA</h2>
+            <p>G. Tercera Decisión</p>
+            <p>H. Cita con el asistente</p>
+            <p>I. Compra del departamento</p>
+        </div>
+        <div class="column5">
+            <h4>ETAPA 4</h4>
+            <h2>SERVICIO</h2>
+            <p>J. Ingreso a la obra virtual</p>
+            <p>K. Visitas en el departamento</p>
+            <p>L. Finalización de la obra</p>
+            <p>M. Entrega final del inmueble</p>
+        </div>
+        <div class="column5">
+            <h4>ETAPA 5</h4>
+            <h2>FIDELIDAD</h2>
+            <p>N. Servicio de Post-Venta</p>
+        </div>
+    </section>
+</section>
+
+        <script>
+            function infoStart(){
+                $('.info-start').css('transform','translate3d(0,-500px,0)');
+                $('.info-show').css('transform','translate3d(0,0,0)');
+                $('.camino').css('transform','translate3d(0,0,0)');
+                $('.letras').css('transform','translate3d(0,0,0)');
+                $('.info-slides').css('transform','translate3d(0,0,0)');
+                $('.a').css('box-shadow','0px 0px 15px 5px red');
+                $('.a').css('-web-kit-box-shadow','0px 0px 15px 5px red');
+            }
+            function obe(){
+                $( '#infoSlides' ).on( 'cycle-update-view', function( event, opts ) {
+                    var slide = opts.currSlide;
+                    $('.letras>a').css('box-shadow','none')
+                    switch(slide){
+                        case 0:
+                            $('.a').css('box-shadow','0px 0px 15px 5px red');
+                            $('.a').css('-web-kit-box-shadow','0px 0px 15px 5px red');
+                            break;
+                        case 1:
+                            $('.b').css('box-shadow','0px 0px 15px 5px red')
+                            $('.b').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 2:
+                            $('.c').css('box-shadow','0px 0px 15px 5px red')
+                            $('.c').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 3:
+                            $('.d').css('box-shadow','0px 0px 15px 5px red')
+                            $('.d').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 4:
+                            $('.e').css('box-shadow','0px 0px 15px 5px red')
+                            $('.e').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 5:
+                            $('.f').css('box-shadow','0px 0px 15px 5px red')
+                            $('.f').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 6:
+                            $('.g').css('box-shadow','0px 0px 15px 5px red')
+                            $('.g').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 7:
+                            $('.h').css('box-shadow','0px 0px 15px 5px red')
+                            $('.h').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 8:
+                            $('.i').css('box-shadow','0px 0px 15px 5px red')
+                            $('.i').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 9:
+                            $('.j').css('box-shadow','0px 0px 15px 5px red')
+                            $('.j').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 10:
+                            $('.k').css('box-shadow','0px 0px 15px 5px red')
+                            $('.k').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 11:
+                            $('.l').css('box-shadow','0px 0px 15px 5px red')
+                            $('.l').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 12:
+                            $('.m').css('box-shadow','0px 0px 15px 5px red')
+                            $('.m').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                        case 13:
+                            $('.n').css('box-shadow','0px 0px 15px 5px red')
+                            $('.n').css('-web-kit-box-shadow','0px 0px 15px 5px red')
+                            break;
+                    }
+                });
+
+
+            }
+        </script>

@@ -1,0 +1,72 @@
+<footer>
+    <div>
+        <h3>Torremolino ©2013</h3>
+        <h4>Todos los derechos reservados</h4>
+    </div>
+    <div>
+        <h3>Llámanos T. {CONTENT.PHONE}</h3>
+        <h4>info@torremolino.com.pe</h4>
+    </div>
+    <div>
+        <h3>Síguenos</h3>
+        <h4>_</h4>
+        <a href="#" class="facebook"></a>
+        <a href="#" class="twitter"></a>
+        <a href="#" class="linkedin"></a>
+    </div>
+    <div>
+        <h4 class="gray">Developed by Newcircus</h4>
+        <h4>_</h4>
+    </div>
+
+</footer>
+
+
+<!--VENDOR SCRIPTS-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="{PATH_JS}vendor/jquery.cycle2.min.js"></script>
+<script src="{PATH_JS}vendor/jquery.ui.slider.js"></script>
+<script src="{PATH_JS}vendor/jquery.carouFredSel-6.2.1.js"></script>
+
+<script>
+
+    $(function() {
+        $( "#slider" ).slider({
+            min: 1996,
+            max: 2016,
+            values: [ 1996, 2013],
+            range: true,
+            slide: function( event, ui ) {
+                $( ".year1" ).html( ui.values[0] );
+                $( ".year2" ).html( ui.values[1] );
+                if(ui.value==2000){
+                    $("#proy").trigger("slideTo", [2,{
+                        duration    : 500
+                    }]);
+                }
+                if(ui.value==2004){
+                    $("#proy").trigger("slideTo", [3,{
+                        duration    : 500
+                    }]);
+                }
+                if(ui.value==2010){
+                    $("#proy").trigger("slideTo", [4,{
+                        duration    : 500
+                    }]);
+                }
+            }
+        });
+        $( ".year1" ).html( $( "#slider" ).slider( "values",0 ) );
+        $( ".year2" ).html( $( "#slider" ).slider( "values",1 ) );
+    });
+
+</script>
+<!--VENDOR SCRIPTS-->
+
+<!--SITE SCRIPTS-->
+<script src="{PATH_JS}main.js"></script>
+<!--SITE SCRIPTS-->
+
+</body>
+</html>

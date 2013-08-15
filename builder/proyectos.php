@@ -1,0 +1,2 @@
+<?php
+plainHTML('proyectos.html');

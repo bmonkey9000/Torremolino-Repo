@@ -36,29 +36,30 @@
                     </li>
                 </ul>
             </nav>
-            <div id="logo"></div>
+            <div id="logo" onclick="location.href='DEVhome'"></div>
             <nav id="mainNav">
                 <ul>
-                    <li>EMPRESA</li>
-                    <li>PROCESO</li>
-                    <li>PROYECTOS</li>
-                    <li>NOTICIAS</li>
-                    <li>VENDE TU TERRENO</li>
-                    <li>CONTACTO</li>
+                    <li><a href="DEVempresa">EMPRESA</a></li>
+                    <li><a href="DEVproceso">PROCESO</a></li>
+                    <li><a href="DEVproyectos">PROYECTOS</a></li>
+                    <li><a>NOTICIAS</a></li>
+                    <li><a>VENDE&nbsp;TU&nbsp;TERRENO</a></li>
+                    <li><a>CONTACTO</a></li>
                 </ul>
             </nav>
             <aside>
-                <div class="router">
-                    <ul>
-                        <li>Inicio</li>
-                        <li>Empresa</li>
-                    </ul>
-                </div>
                 <form>
                     <input type="text" placeholder="buscar">
                 </form>
             </aside>
         </header>
+
+        <div class="router">
+            <ul>
+                <li>Inicio</li>
+                <li>Empresa</li>
+            </ul>
+        </div>
 
         <section id="slider" class="cycle-slideshow"
             data-cycle-fx="fade"

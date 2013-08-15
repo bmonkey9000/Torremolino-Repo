@@ -1,0 +1,3 @@
+<?php
+plainHTML('empresa.html');
+

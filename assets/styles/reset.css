@@ -245,3 +245,10 @@ a{
 a:visited{
     color: inherit;
 }
+
+a:focus{
+    outline: none;
+}
+
+.ui-slider .ui-slider-handle {position:absolute;z-index:2;width:1.2em;height:1.2em;cursor:default;outline:none}
+

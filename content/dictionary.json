@@ -6,27 +6,146 @@
     "{PATH_IMG}": "/torremolino/assets/img/"
 },
 "contenido":
+{
+    "{SLIDER1-TITLE}" : "Las grandes visiones se realizan",
+    "{SLIDER2-TITLE}" : "Las grandes visiones se realizan con un texto más largo",
+
+    "{ARTICLE1.DATE}" : "7/05/2013",
+    "{ARTICLE1.TITLE}" : "Pasos de gigante",
+    "{ARTICLE1.CONTENT}" : "Torremolino ha ingresado a un nuevo modelo inmobiliario residencial que se asemeja al de una ciudad satélite. ",
+
+    "{ARTICLE2.DATE}" : "7/05/2013",
+    "{ARTICLE2.TITLE}" : "Con buen clima todo el año",
+    "{ARTICLE2.CONTENT}" : "Casa Club Recrea tiene una ubicación privilegiada: a cinco minutos del Jockey Plaza y a dos cuadras del Mall Aventura Plaza de ",
+
+    "{CONTENT.PHONE}" : "437 1073",
+
+    "{PROJECT1.TITLE}" : "HARAS",
+    "{PROJECT1.CONTENT}" : "Haras está diseñado para personas que le gusta tener opciones para elegir lo que más quieren",
+
+    "{PROJECT2.TITLE}" : "ESTANZA",
+    "{PROJECT2.CONTENT}" : "Estanza es un edificio cuya ubicación en esquina y el reducido número de departamentos ofrece calidez y exclusividad a sus habitantes.",
+
+    "{PROJECT3.TITLE}" : "EL CID",
+    "{PROJECT3.CONTENT}" : "Edificio El CID fue el primer edificio empresarial triple A del Perú, con 23 pisos de oficinas en San isidro, Lima",
+
+
+    "{PROJECT.TITLE}" : "Edificio Barcelona",
+    "{PROJECT.CONTENT}" : "Caracteristicas: Consta de cinco departamentos distribuidos en tres pisos con cocheras para cada departamento.",
+    "{PROJECT.CATEGORY}" : "En Venta",
+    "{PROJECT.LOCATION}" : "Calle Barcelona 157, Urb Higuereta, Santiago de Surco.",
+    "{PROJECT.YEAR}" : "1991-1992",
+    "{PROJECT.ARCHITECT}" : "Richard Malachowski",
+
+    "{CONTENT.EMPRESA.QUIENESSOMOS}" : "Somos un grupo inmobiliario con una trayectoria de más de 20 años en el mercado peruano.<br/><br/> Mediante nuestro calificado  equipo profesional,  la seriedad y compromiso en nuestro trabajo, y nuestro sentido de estar siempre a la vanguardia realizamos proyectos para personas únicas, quienes buscan coronar su esfuerzo con un espacio que responda a sus gustos y estilo de vida.<br/><br/> En ese sentido, nuestro espíritu de familia nos permite brindar un servicio personalizado y cálido, además de entregar un producto de calidad, innovador y diferenciado.",
+    "{CONTENT.EMPRESA.MISION}" : "Satisfacer las necesidades de un público exigente y con altos estándares de calidad de vida, y formar parte de la realización del sueño de su espacio propio, tal cual lo imaginó.",
+    "{CONTENT.EMPRESA.VISION}" : "Consolidarnos como el grupo inmobiliario con mayor cercanía, vínculo y compromiso con el público peruano, y que TORREMOLINO sea una experiencia inolvidable, que otorgue mucho valor a sus vidas.",
+
+    "{CONTENT.PROCESS.INFO1}" : "Sabemos que tienes grandes visiones, aquí te decimos como realizarlas.",
+    "{CONTENT.PROCESS.INFO2TITLE}" : "Bienvenidos, es un placer conocerte!",
+    "{CONTENT.PROCESS.INFO2CONTENT}" : "Somos Pablo y Karen, tenemos 30 y 34 años. Vivimos en un departamento alquilado en Lima, donde nos casamos hace un año. Nos acabamos de enterar que estamos esperando nuestro primer hijo! Por eso decidimos comprar un departamento propio en cual nuestra familia podrá crecer.",
+    "{CONTENT.PROCESS.INFO2CONTENTH3}" : "Te explicaremos como empezamos a buscar nuestro hogar soñado."
+},
+
+"sliders":
+[
     {
-        "{SLIDER1-TITLE}" : "Las grandes visiones se realizan",
-        "{SLIDER2-TITLE}" : "Las grandes visiones se realizan con un texto más largo",
-
-        "{ARTICLE1.DATE}" : "7/05/2013",
-        "{ARTICLE1.TITLE}" : "Pasos de gigante",
-        "{ARTICLE1.CONTENT}" : "Torremolino ha ingresado a un nuevo modelo inmobiliario residencial que se asemeja al de una ciudad satélite. ",
-
-        "{ARTICLE2.DATE}" : "7/05/2013",
-        "{ARTICLE2.TITLE}" : "Con buen clima todo el año",
-        "{ARTICLE2.CONTENT}" : "Casa Club Recrea tiene una ubicación privilegiada: a cinco minutos del Jockey Plaza y a dos cuadras del Mall Aventura Plaza de ",
-
-        "{CONTENT.PHONE}" : "437 1073",
-
-        "{PROJECT1.TITLE}" : "HARAS",
-        "{PROJECT1.CONTENT}" : "Haras está diseñado para personas que le gusta tener opciones para elegir lo que más quieren",
-
-        "{PROJECT2.TITLE}" : "ESTANZA",
-        "{PROJECT2.CONTENT}" : "Estanza es un edificio cuya ubicación en esquina y el reducido número de departamentos ofrece calidez y exclusividad a sus habitantes.",
-
-        "{PROJECT3.TITLE}" : "EL CID",
-        "{PROJECT3.CONTENT}" : "Edificio El CID fue el primer edificio empresarial triple A del Perú, con 23 pisos de oficinas en San isidro, Lima"
+        "slider":{
+            "{titulo}" : "Las grandes visiones se realizan",
+            "{imagen}" : "slider1.jpg"
+        }
+    },
+    {
+        "slider":{
+            "{titulo}" : "Las grandes visiones se realizan",
+            "{imagen}" : "slider2.jpg"
+        }
     }
+],
+
+"projects":
+    [
+        {
+            "project":{
+                "{class}" : "one",
+                "{titulo}" : "HARAS",
+                "{contenido}" : "Haras está diseñado para personas que le gusta tener opciones para elegir lo que más quieren"
+            }
+        },
+        {
+            "project":{
+                "{class}" : "two",
+                "{titulo}" : "ESTANZA",
+                "{contenido}" : "Estanza es un edificio cuya ubicación en esquina y el reducido número de departamentos ofrece calidez y exclusividad a sus habitantes."
+            }
+        },
+        {
+            "project":{
+                "{class}" : "three",
+                "{titulo}" : "EL CID",
+                "{contenido}" : "Edificio El CID fue el primer edificio empresarial triple A del Perú, con 23 pisos de oficinas en San isidro, Lima"
+            }
+        }
+    ],
+
+"news":
+    [
+        {
+            "article":{
+                "{ID}" : "1",
+                "{titulo}" : "Pasos de gigante",
+                "{date}" : "7/05/2013",
+                "{content}" : "Torremolino ha ingresado a un nuevo modelo inmobiliario residencial que se asemeja al de una ciudad satélite. "
+            }
+        },
+        {
+            "article":{
+                "{ID}" : "2",
+                "{titulo}" : "Con buen clima todo el año",
+                "{date}" : "7/05/2013",
+                "{content}" : "Haras está diseñado para personas que le gusta tener opciones para elegir lo que más quieren"
+            }
+        },
+        {
+            "article":{
+                "{ID}" : "3",
+                "{titulo}" : "Noticia de Prueba",
+                "{date}" : "7/05/2013",
+                "{content}" : "Contenido texto de prueba"
+            }
+        }
+    ],
+
+"rutas":
+    [
+        {
+            "home":{
+                "Portada" : ""
+            },
+
+            "empresa":{
+                "empresa" : ""
+            },
+
+            "proceso":{
+                "proceso" : ""
+            },
+
+            "proyectos":{
+                "proyectos" : ""
+            },
+
+            "noticias":{
+                "noticias" : ""
+            },
+
+            "vende tu terreno":{
+                "vende tu terreno" : ""
+            },
+
+            "contacto":{
+                "contacto" : ""
+            }
+        }
+    ]
 }

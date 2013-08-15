@@ -1,0 +1,2 @@
+<?php
+plainHTML('proceso.html');
