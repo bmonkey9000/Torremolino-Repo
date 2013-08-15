@@ -95,7 +95,16 @@
                 "{ID}" : "1",
                 "{titulo}" : "Pasos de gigante",
                 "{date}" : "7/05/2013",
-                "{content}" : "Torremolino ha ingresado a un nuevo modelo inmobiliario residencial que se asemeja al de una ciudad satélite. "
+                "{content}" : "Torremolino ha ingresado a un nuevo modelo inmobiliario residencial que se asemeja al de una ciudad satélite. ",
+                "{tags}" :
+                    [
+                        "arquitectura","inmobiliaria"
+                    ],
+                "{category}" :
+                    [
+                        "arquitectura"
+                    ],
+                "{img}" : "article1.png"
             }
         },
         {
@@ -103,15 +112,84 @@
                 "{ID}" : "2",
                 "{titulo}" : "Con buen clima todo el año",
                 "{date}" : "7/05/2013",
-                "{content}" : "Haras está diseñado para personas que le gusta tener opciones para elegir lo que más quieren"
+                "{content}" : "Haras está diseñado para personas que le gusta tener opciones para elegir lo que más quieren",
+                "{tags}" :
+                    [
+                        "arquitectura","inmobiliaria"
+                    ],
+                "{category}" :
+                    [
+                        "arquitectura"
+                    ],
+                "{img}" : "article2.png"
             }
         },
         {
             "article":{
                 "{ID}" : "3",
-                "{titulo}" : "Noticia de Prueba",
+                "{titulo}" : "21 años de arquitectura en el Perú",
+                "{date}" : "01 Mayo 2013",
+                "{content}" : "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la ",
+                "{tags}" :
+                    [
+                        "arquitectura","inmobiliaria"
+                    ],
+                "{category}" :
+                    [
+                        "arquitectura"
+                    ],
+                "{img}" : "article3.png"
+            }
+        },
+        {
+            "article":{
+                "{ID}" : "4",
+                "{titulo}" : "Depósitos hipotecarios se incrementan 50%",
+                "{date}" : "09 Mayo 2013",
+                "{content}" : "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la ",
+                "{tags}" :
+                    [
+                        "Bienal","Interior"
+                    ],
+                "{category}" :
+                    [
+                        "Casas"
+                    ],
+                "{img}" : "article1.png"
+            }
+        },
+        {
+            "article":{
+                "{ID}" : "5",
+                "{titulo}" : "Tendencias 2013 en decoración",
                 "{date}" : "7/05/2013",
-                "{content}" : "Contenido texto de prueba"
+                "{content}" : "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la ",
+                "{tags}" :
+                    [
+                        "Diseño"
+                    ],
+                "{category}" :
+                    [
+                        "Decoración", "Casas"
+                    ],
+                "{img}" : "article2.png"
+            }
+        },
+        {
+            "article":{
+                "{ID}" : "6",
+                "{titulo}" : "Con buen clima todo el año",
+                "{date}" : "7/05/2013",
+                "{content}" : "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la ",
+                "{tags}" :
+                    [
+                        "arquitectura","inmobiliaria"
+                    ],
+                "{category}" :
+                    [
+                        "arquitectura"
+                    ],
+                "{img}" : "article3.png"
             }
         }
     ],
@@ -139,8 +217,13 @@
                 "noticias" : ""
             },
 
-            "vende tu terreno":{
+            "vendetuterreno":{
                 "vende tu terreno" : ""
+            },
+
+            "proyecto-viewer":{
+                "proyectos" : "DEVproyectos",
+                "edificio barcelona" : ""
             },
 
             "contacto":{

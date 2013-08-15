@@ -65,6 +65,12 @@ class builder{
                 include('builder/'.$file.'.php');
                 decodejson('template/down-project.html');
                 break;
+            case 'proyecto-viewer':
+                decodejson('template/up-proyecto-viewer.html');
+                router($file);
+                include('builder/'.$file.'.php');
+                decodejson('template/down.html');
+                break;
         }
     }
 }

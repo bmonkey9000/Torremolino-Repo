@@ -13,6 +13,10 @@ if(isset($_GET['page'])){
             $builder->templatekind="projects";
             $builder->load_view('proyectos');
             break;
+        case "proyecto-viewer":
+            $builder->templatekind="proyecto-viewer";
+            $builder->load_view("proyecto-viewer");
+            break;
         default:
             $builder->templatekind="basic";
             $builder->load_view($ruta[0]);

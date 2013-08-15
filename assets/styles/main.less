@@ -1004,3 +1004,184 @@ section#project-info{
 section#project-location{
   margin-top: 40px;
 }
+
+//noticias
+#content{
+  .tags-selector{
+    overflow: hidden;
+  }
+  h2.tags{
+    color: #38647d;
+    height: 21px; width: 74px;
+    margin-top: 12px;
+    margin-left: 15px;
+    padding-right: 24px;
+    border-right: 1px solid #38647d;
+    line-height: 21px;
+    float: left;
+    text-align: right;
+    font-size: 12px;
+  }
+  ul.tagsS li{
+    color: #ffffff;
+    line-height: 22px;
+    height: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #b0c1cb;
+    font-size: 12px;
+    margin-top: 12px;
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+    &:hover{
+      background-color: #7592a4;
+    }
+  }
+  header.content-header{
+    width: 940px;
+    height: 44px;
+    background-color: #38647d;
+    overflow: hidden;
+    h2{
+      color: #ffffff;
+      height: 21px; width: 98px;
+      margin-top: 12px;
+      margin-left: 15px;
+      font-size: 12px;
+      border-right: 1px solid #ffffff;
+      line-height: 21px;
+      float: left;
+    }
+    ul{
+      display: block;
+      li{
+        float: left;
+        list-style: none;
+        color: #ffffff;
+        font-size: 12px;
+        margin-left: 20px;
+        cursor: pointer;
+        line-height: 21px;
+        margin-top: 12px;
+        &.active{
+          color: #6bc9ff;
+        }
+        &:hover{
+          color: #6bc9ff;
+        }
+      }
+    }
+    a{
+      display: block;
+      float: right;
+      width: 100px;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 21px;
+      margin-top: 12px;
+      padding-left: 20px;
+      border-left: 1px solid #ffffff;
+      background-image: url("img/icon-date-selector.png");
+      background-position: right;
+      background-repeat: no-repeat;
+    }
+  }
+  section.blog{
+    article{
+      width: 940px;
+      overflow: hidden;
+      margin-top: 55px;
+      &:first-child{
+        margin-top: 30px;
+      }
+      header{
+        width: 230px;
+        margin-right: 12px;
+        overflow: hidden;
+        float: left;
+        h1{
+          color: #373737;
+          font-size: 18px;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        h4{
+          color: #7e7e7e;
+          font-size: 10px;
+        }
+        h3.sub-title{
+          margin-top: 37px;
+          color: #3d3c3c;
+          font-size: 12px;
+          font-weight: bold;
+        }
+        ul.categories{
+          li{
+            padding-top: 5px;
+            color: #c64a40;
+            font-size: 10px;
+            float: left;
+            list-style: none;
+            &:before{
+              content: ", ";
+            }
+            &:first-child:before{
+              content: "";
+            }
+          }
+        }
+        ul.tags{
+          padding-top: 5px;
+          li{
+            color: #ffffff;
+            line-height: 20px;
+            height: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            background-color: #b0c1cb;
+            font-size: 10px;
+            float: left;
+            list-style: none;
+            margin-left: 10px;
+            &:first-child{
+              margin-left: 0px;
+              display: none;
+            }
+          }
+        }
+      }
+      div{
+        height: 198px;
+        width: 698px;
+        float: left;
+        overflow: hidden;
+        p{
+          width: 450px; height: 117px;
+          font-size: 12px;
+          color: #8d8b8b;
+          display: block;
+          float: left;
+        }
+        img{
+          float: right;
+        }
+        a{
+          display: block;
+          color: #d95c21;
+          font-weight: bold;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
